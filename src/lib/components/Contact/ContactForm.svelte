@@ -26,7 +26,7 @@
 			.trim()
 	});
 
-	const { form, data, errors, isValid, isSubmitting } = createForm({
+	const { form, data, errors, isValid, isSubmitting, reset } = createForm({
 		initialValues: {
 			name: '',
 			email: '',
@@ -36,7 +36,7 @@
 		},
 		extend: validator({ schema }),
 		onSubmit: async (values) => {
-			const response = await fetch('/api/email/send', {
+			const response = await fetch('/api/email', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
@@ -47,6 +47,7 @@
 			if (response.ok) {
 				message.success = true;
 				message.text = 'Thank you for your message! We will get back to you shortly.';
+				reset();
 			} else {
 				message.success = false;
 				message.text = 'Something went wrong. Please try again later.';
@@ -119,9 +120,12 @@
 		>Send Message</ButtonPrimary
 	>
 	{#if message.submitted}
-		<span
-			class="font-semibold text-base mt-4 {message.success ? 'text-green-500' : 'text-red-600'} "
-			>{message.text}</span
+		<div
+			class="w-full font-semibold text-base mt-4 {message.success
+				? 'text-green-500'
+				: 'text-red-600'} "
 		>
+			{message.text}
+		</div>
 	{/if}
 </form>
