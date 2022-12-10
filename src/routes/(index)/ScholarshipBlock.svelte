@@ -14,8 +14,12 @@
 					>Our expert mentors will guide you throughout your entire scholarship-seeking journey.</span
 				>
 				<div class="flex items-center gap-x-4">
-					<ButtonPrimary>Find Mentors</ButtonPrimary>
-					<ButtonSecondary>Be a Mentor</ButtonSecondary>
+					<a href="/service/scholarship-mentoring/find-a-mentor">
+						<ButtonPrimary>Find Mentors</ButtonPrimary>
+					</a>
+					<a href="/service/scholarship-mentoring/be-a-mentor">
+						<ButtonSecondary>Be a Mentor</ButtonSecondary>
+					</a>
 				</div>
 			</div>
 			<div class="w-full md:w-2/4">

@@ -7,7 +7,6 @@ export async function load() {
 	});
 
 	const visa_interview_services = await directus.items('Service').readByQuery({
-		fields: ['id', 'Name', 'Slug', 'Summary', 'Button_Text', 'Featured_Image'],
 		filter: {
 			Service_Category: {
 				Name: {
@@ -18,7 +17,6 @@ export async function load() {
 	});
 
 	const sat_services = await directus.items('Service').readByQuery({
-		fields: ['id', 'Name', 'Slug', 'Summary', 'Button_Text', 'Featured_Image'],
 		filter: {
 			Service_Category: {
 				Name: {
@@ -29,7 +27,6 @@ export async function load() {
 	});
 
 	const other_services = await directus.items('Service').readByQuery({
-		fields: ['id', 'Name', 'Slug', 'Summary', 'Button_Text', 'Featured_Image', 'hidden_from_list'],
 		filter: {
 			Service_Category: {
 				Name: {

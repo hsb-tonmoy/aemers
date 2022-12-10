@@ -51,14 +51,18 @@
 				Interviewer.</span
 			>
 			<div class="flex items-center gap-x-4">
-				<button
-					class="text-white font-bold bg-primary hover:bg-primaryDarker border border-primary py-2 px-4 rounded-2xl"
-					><a href="/mock_visa_interview">Start for Free</a></button
-				>
-				<button
-					class="inline-flex gap-x-2 items-center font-bold text-primary bg-white hover:text-white hover:bg-primary hover: border border-primary py-2 px-4 rounded-2xl"
-					><span class="w-4 h-4 block"><Medal /></span> Go Premium</button
-				>
+				<a href="https://app.aemers.com/mock_visa_interview" target="_blank" rel="noreferrer">
+					<button
+						class="text-white font-bold bg-primary hover:bg-primaryDarker border border-primary py-2 px-4 rounded-2xl"
+						><a href="/mock_visa_interview">Start for Free</a></button
+					>
+				</a>
+				<a href="/contact">
+					<button
+						class="inline-flex gap-x-2 items-center font-bold text-primary bg-white hover:text-white hover:bg-primary hover: border border-primary py-2 px-4 rounded-2xl"
+						><span class="w-4 h-4 block"><Medal /></span> Go Premium</button
+					>
+				</a>
 			</div>
 		</div>
 		<div class="w-full xl:w-2/4 h-[45vh]">
@@ -106,10 +110,12 @@
 					fears.
 				</span>
 				<div class="flex items-center gap-x-4">
-					<button
-						class="inline-flex gap-x-2 items-center font-bold text-primary bg-white hover:text-white hover:bg-primaryDarker border border-white hover:border-primary py-2 px-6 rounded-2xl"
-						><span class="w-4 h-4 block"><Medal /></span> Go Premium</button
-					>
+					<a href="/contact">
+						<button
+							class="inline-flex gap-x-2 items-center font-bold text-primary bg-white hover:text-white hover:bg-primaryDarker border border-white hover:border-primary py-2 px-6 rounded-2xl"
+							><span class="w-4 h-4 block"><Medal /></span> Go Premium</button
+						>
+					</a>
 					<button
 						class="inline-flex gap-x-2 items-center font-bold text-white bg-primary hover:text-primary hover:bg-white border border-white py-2 px-6 rounded-2xl"
 						><span class=" w-5 h-5 block"><PlayCircular /></span> Watch Demo</button

@@ -15,9 +15,11 @@
 		"@directus/sdk": "^10.2.0",
 		"@felte/validator-yup": "^1.0.10",
 		"@sendgrid/mail": "^7.7.0",
+		"@zerodevx/svelte-toast": "1.0.0-rc.1",
 		"dotenv": "^16.0.3",
 		"felte": "^1.2.6",
 		"svelte": "^3.46.4",
+		"toastify-js": "^1.12.0",
 		"yup": "^0.32.11"
 	},
 	"devDependencies": {

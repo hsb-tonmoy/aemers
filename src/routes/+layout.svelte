@@ -1,9 +1,15 @@
 <script>
 	import '../app.postcss';
+	import { navigating } from '$app/stores';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	import { page_title } from '$lib/components/stores';
+
+	import Loader from '$lib/loading/Loader.svelte';
+	import { loading } from '$lib/loading/loading';
+
+	$: loading.setNavigate(!!$navigating);
 
 	export let data;
 </script>
@@ -11,7 +17,7 @@
 <svelte:head>
 	<title>{$page_title} | Aemers LLC</title>
 </svelte:head>
-
+<Loader />
 <Header site_logo={data.site_settings.site_logo} services={data.services.data} />
 <main>
 	<slot />

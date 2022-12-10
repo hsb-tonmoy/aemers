@@ -12,6 +12,8 @@
 	import Select from '$lib/components/Form/Select.svelte';
 	import TextArea from '$lib/components/Form/TextArea.svelte';
 
+	import { notificationSuccessToast, notificationFailToast } from '$lib/utils/notificationToast';
+
 	const schema = yup.object().shape({
 		first_name: yup.string().required('Please enter your first name'),
 		last_name: yup.string().required('Please enter your last name'),
@@ -37,7 +39,7 @@
 		about_yourself: yup.string().required('Please type about yourself')
 	});
 
-	const { form, data, errors, isValid, isSubmitting } = createForm({
+	const { form, errors, isValid, isSubmitting, reset } = createForm({
 		initialValues: {
 			first_name: '',
 			last_name: '',
@@ -57,13 +59,20 @@
 		extend: validator({ schema }),
 		onSubmit: async (values) => {
 			// POST the values to /service/scholarship-mentoring/be-a-mentor
-			const response = await fetch('/service/scholarship-mentoring/be-a-mentor', {
+			const res = await fetch('/service/scholarship-mentoring/be-a-mentor', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
 				},
 				body: JSON.stringify(values)
 			});
+
+			if (res.ok) {
+				notificationSuccessToast('Your application has been submitted successfully');
+				reset();
+			} else {
+				notificationFailToast('Something went wrong. Please try again later');
+			}
 		}
 	});
 </script>

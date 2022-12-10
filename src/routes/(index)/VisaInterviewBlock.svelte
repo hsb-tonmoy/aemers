@@ -18,7 +18,8 @@
 					heading={item.Name}
 					description={item.Summary}
 					button={item.Button_Text}
-					url={'/service/' + item.Slug}
+					coming_soon={item.Service_Unavailable}
+					url={item.External_Service ? item.External_Link : '/service/' + item.Slug}
 				/>
 			{/each}
 		</div>
