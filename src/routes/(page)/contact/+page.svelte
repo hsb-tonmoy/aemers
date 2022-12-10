@@ -1,6 +1,6 @@
 <script>
-	import ContactForm from '$lib/components/ContactForm.svelte';
-	import ContactPerson from '$lib/components/ContactPerson.svelte';
+	import ContactForm from '$lib/components/Contact/ContactForm.svelte';
+	import ContactPerson from '$lib/components/Contact/ContactPerson.svelte';
 	import CTABanner from '$lib/components/CTABanner.svelte';
 
 	import { page_title } from '$lib/components/stores';

@@ -1,5 +1,5 @@
 <script>
-	import TeamMemberCard from '$lib/components/TeamMemberCard.svelte';
+	import TeamMemberCard from './TeamMemberCard.svelte';
 
 	export let teams = [];
 
