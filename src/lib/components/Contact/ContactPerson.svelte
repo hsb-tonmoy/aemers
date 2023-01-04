@@ -12,8 +12,8 @@
 		</p>
 	{/if}
 	<h6 class="font-bold text-lg md:text-xl">Aemers Bangladesh:</h6>
-	<p class="font-semibold text-base md:text-lg">Rasma A. Soniya</p>
-	<span class="text-sm md:text-base">Manager, Aemers Bangladesh</span>
+	<p class="font-semibold text-base md:text-lg">Tasnim Hassan</p>
+	<span class="text-sm md:text-base">Administrative Manager, Aemers Bangladesh</span>
 	<div class="flex flex-col gap-4 mt-6">
 		<button class="inline-flex items-center gap-2">
 			<div class="w-8 h-8 p-2 rounded-full bg-white">

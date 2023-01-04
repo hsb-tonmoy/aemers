@@ -14,6 +14,11 @@ export async function load() {
 			'Service_Category.Name',
 			'Service_Category.sort'
 		],
+		filter: {
+			status: {
+				_eq: 'published'
+			}
+		},
 		sort: ['Service_Category.sort']
 	});
 
