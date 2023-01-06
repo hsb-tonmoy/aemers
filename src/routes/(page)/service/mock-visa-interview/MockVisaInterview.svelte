@@ -47,14 +47,14 @@
 				Mock Visa Interview
 			</h1>
 			<span class="text-lighterText text-sm mb-6"
-				>Here you can practice for your visa interview. You can practice for free with the Aemers
-				Interviewer.</span
+				>Here you can take free simulated visa interviews. You can evaluate yourself with multiple
+				authentic and unique questions.</span
 			>
 			<div class="flex items-center gap-x-4">
 				<a href="https://app.aemers.com/mock_visa_interview" target="_blank" rel="noreferrer">
 					<button
 						class="text-white font-bold bg-primary hover:bg-primaryDarker border border-primary py-2 px-4 rounded-2xl"
-						><a href="/mock_visa_interview">Start for Free</a></button
+						>Start for Free</button
 					>
 				</a>
 				<a href="/contact">
@@ -95,7 +95,7 @@
 	</div>
 </div>
 
-<div class="bg-primary px-6 py-20 md:py-28 text-white">
+<!-- <div class="bg-primary px-6 py-20 md:py-28 text-white">
 	<section class="container mx-auto flex flex-col">
 		<h2 class="font-bold text-3xl md:text-4xl xl:text-5xl my-2">
 			Mock Test with A Real Interviewer!
@@ -136,8 +136,7 @@
 			</div>
 		</div>
 	</section>
-</div>
-
+</div> -->
 <style>
 	.hero {
 		background-image: url('/images/visa_interview.jpg');
