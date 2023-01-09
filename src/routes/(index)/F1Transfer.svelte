@@ -6,13 +6,13 @@
 	const features = ['Fast & Efficient', 'Affordable Package', 'Scholarship Opportunities'];
 </script>
 
-<section class="relative w-full h-full px-6 py-6 lg:py-20 bg-cover bg-center bg-no-repeat">
+<section class="relative w-full h-full px-6 py-6 lg:py-20 bg-white">
 	<div class="container mx-auto px-6 py-20">
 		<div class="flex flex-wrap lg:flex-nowrap">
 			<div class="w-full lg:w-2/4 lg:pr-16">
-				<Subheading text="Direct Admission to a US University" />
+				<Subheading text="Transfer Mentoring in the US" />
 				<span class="font-bold text-secondary text-2xl md:text-3xl xl:text-5xl xl:leading-snug"
-					>Open a file with us today and land in the US soon!</span
+					>Already in the US? Transfer to a better program</span
 				>
 				<p class="text-lighterColor text-base leading-[1.9] mt-2 mb-6 text-justify">
 					Based on your profile, English proficiency and accomplishments, our team of mentors will
@@ -64,23 +64,21 @@
 				</div>
 			</div>
 			<div class="w-full lg:w-2/4 py-10 lg:py-0">
-				<iframe
-					style="aspect-ratio: 16/9;"
-					width="100%"
-					height="auto"
-					src="https://www.youtube.com/embed/g-iO6JQWUbY"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				/>
+				<div class="relative w-full h-full">
+					<img
+						src="/images/mamoon-big.png"
+						alt="Dr. Mamoon Rashid"
+						class="object-cover w-auto h-full"
+					/>
+					<div class="floating-info flex absolute bottom-0 -left-5">15 years of experience</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
 <style>
-	section {
-		background-image: url('/images/section-bg.jpg');
+	.floating-info {
+		background: linear-gradient(45deg, #a789ff 0%, #6b3aff 54%, #7443ff 100%);
 	}
 </style>

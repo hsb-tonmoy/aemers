@@ -28,7 +28,7 @@
 
 <header class="bg-white">
 	<nav class="container mx-auto px-6 py-4 lg:flex lg:items-center lg:gap-x-8">
-		<div class="flex items-center">
+		<div class="flex items-center justify-between">
 			<div>
 				<a class="text-2xl font-bold text-gray-800 hover:text-gray-700 lg:text-3xl" href="/"
 					><img src="/logo.png" alt="Aemers LLC" class="w-40" /></a
