@@ -16,16 +16,6 @@ export async function load() {
 		}
 	});
 
-	const sat_services = await directus.items('Service').readByQuery({
-		filter: {
-			Service_Category: {
-				Name: {
-					_eq: 'SAT Preparation'
-				}
-			}
-		}
-	});
-
 	const other_services = await directus.items('Service').readByQuery({
 		filter: {
 			Service_Category: {
@@ -39,7 +29,6 @@ export async function load() {
 	return {
 		reviews,
 		visa_interview_services,
-		sat_services,
 		other_services
 	};
 }

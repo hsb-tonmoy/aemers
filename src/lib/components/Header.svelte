@@ -27,12 +27,12 @@
 	}));
 </script>
 
-<header class="bg-white shadow">
-	<nav class="px-6 py-2 lg:flex lg:items-center lg:justify-between">
-		<div class="flex items-center justify-between">
+<header class="bg-white">
+	<nav class="container mx-auto px-6 py-4 lg:flex lg:items-center lg:gap-x-8">
+		<div class="flex items-center">
 			<div>
 				<a class="text-2xl font-bold text-gray-800 hover:text-gray-700 lg:text-3xl" href="/"
-					><img src={getAssetURL(site_logo)} alt="Aemers LLC" class="w-40" /></a
+					><img src="/logo.png" alt="Aemers LLC" class="w-40" /></a
 				>
 			</div>
 
@@ -59,7 +59,7 @@
 		<div
 			class="absolute {menuOpen
 				? 'block translate-x-0 opacity-100 '
-				: 'hidden opacity-0 -translate-x-full'} inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out lg:relative lg:top-0 lg:mt-0 lg:flex lg:justify-end lg:w-full lg:translate-x-0 lg:items-center lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none"
+				: 'hidden opacity-0 -translate-x-full'} inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out lg:relative lg:top-0 lg:mt-0 lg:flex lg:justify-evenly lg:w-full lg:translate-x-0 lg:items-center lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none"
 		>
 			<div
 				class="lg:-px-8 flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:justify-end lg:items-center lg:space-y-0 lg:gap-x-8"
@@ -87,10 +87,10 @@
 				>
 				<a class="navItem" href="/about">About Us</a>
 				<a class="navItem" href="/contact">Contact Us</a>
-				<a href="https://app.aemers.com" target="_blank" rel="noreferrer">
-					<ButtonPrimary classes="self-start px-6 py-2">Get Started</ButtonPrimary>
-				</a>
 			</div>
+			<a href="https://app.aemers.com" target="_blank" rel="noreferrer">
+				<ButtonPrimary classes="self-start px-6 py-2 uppercase">Get Started</ButtonPrimary>
+			</a>
 		</div>
 	</nav>
 </header>
