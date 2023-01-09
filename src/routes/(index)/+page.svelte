@@ -5,7 +5,9 @@
 
 	import Hero from './Hero.svelte';
 
+	import DirectAdmission from './DirectAdmission.svelte';
 	export let data;
 </script>
 
 <Hero />
+<DirectAdmission />

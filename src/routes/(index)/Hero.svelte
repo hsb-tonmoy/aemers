@@ -32,7 +32,9 @@
 			</span>
 			<span class="italic text-lg md:text-xl xl:text-3xl">Fast & Affordable</span>
 			<div class="flex items-center gap-6 mt-6 md:mt-12">
-				<ButtonPrimary classes="px-8 py-3">Get Started</ButtonPrimary>
+				<a href="/go">
+					<ButtonPrimary classes="px-8 py-3">Get Started</ButtonPrimary>
+				</a>
 				<div class="flex flex-col">
 					<span class="text-lightColor text-sm">Contact Us</span>
 					<a href="mailto:contact@aemers.com" class="text-secondary text-base font-bold"

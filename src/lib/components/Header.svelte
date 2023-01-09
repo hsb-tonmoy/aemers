@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Menu, Close } from '$lib/components/Icons';
 	import { MegaMenu } from 'flowbite-svelte';
-	import { getAssetURL } from '$lib/utils/getAssetURL';
 	import ButtonPrimary from '$lib/components/ButtonPrimary.svelte';
 	let menuOpen: boolean = false;
 
@@ -88,8 +87,8 @@
 				<a class="navItem" href="/about">About Us</a>
 				<a class="navItem" href="/contact">Contact Us</a>
 			</div>
-			<a href="https://app.aemers.com" target="_blank" rel="noreferrer">
-				<ButtonPrimary classes="self-start px-6 py-2 uppercase">Get Started</ButtonPrimary>
+			<a href="/go">
+				<ButtonPrimary classes="px-8 py-3">Get Started</ButtonPrimary>
 			</a>
 		</div>
 	</nav>
