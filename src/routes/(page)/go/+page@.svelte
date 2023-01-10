@@ -16,11 +16,22 @@
 	$page_title = 'Apply Now';
 </script>
 
-<div class="container mx-auto px-6 py-20">
-	<h1 class="block-heading mb-10">Let us help you get started</h1>
-	{#if !succeed}
-		<SubmitForm bind:succeed />
-	{:else}
-		<Success />
-	{/if}
-</div>
+<section class="w-full">
+	<div class="page flex items-center justify-center py-32 bg-cover bg-no-repeat">
+		<h1 class="text-white font-bold text-2xl md:text-3xl xl:text-5xl">{$page_title}</h1>
+	</div>
+	<div class="container mx-auto px-6 py-20">
+		<h1 class="block-heading mb-10">Let us help you get started</h1>
+		{#if !succeed}
+			<SubmitForm bind:succeed />
+		{:else}
+			<Success />
+		{/if}
+	</div>
+</section>
+
+<style>
+	.page {
+		background-image: url('/images/page-bg.jpg');
+	}
+</style>
