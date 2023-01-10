@@ -6,8 +6,8 @@
 	const features = ['Fast & Efficient', 'Affordable Package', 'Scholarship Opportunities'];
 </script>
 
-<section class="relative w-full h-full px-6 py-6 lg:py-20 bg-cover bg-center bg-no-repeat">
-	<div class="container mx-auto px-6 py-20">
+<section class="relative w-full h-full px-12 py-20 lg:py-40 bg-cover bg-center bg-no-repeat">
+	<div class="container mx-auto">
 		<div class="flex flex-wrap lg:flex-nowrap">
 			<div class="w-full lg:w-2/4 lg:pr-16">
 				<Subheading text="Direct Admission to a US University" />
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="w-full lg:w-2/4 py-10 lg:py-0">
+			<div class="flex items-center w-full lg:w-2/4 py-10 lg:py-0">
 				<iframe
 					style="aspect-ratio: 16/9;"
 					width="100%"

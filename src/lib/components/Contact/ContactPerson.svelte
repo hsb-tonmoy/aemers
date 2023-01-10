@@ -5,12 +5,6 @@
 </script>
 
 <section class="flex flex-col py-10 px-8 text-white bg-primary rounded-2xl">
-	{#if !contactPage}
-		<h6 class="font-bold text-xl md:text-2xl">Get in Touch</h6>
-		<p class="text-sm md:text-base">
-			Leave a message for us and we will get back to you in a moment!
-		</p>
-	{/if}
 	<h6 class="font-bold text-lg md:text-xl">Aemers Bangladesh:</h6>
 	<p class="font-semibold text-base md:text-lg">Tasnim Hassan</p>
 	<span class="text-sm md:text-base">Administrative Manager, Aemers Bangladesh</span>
