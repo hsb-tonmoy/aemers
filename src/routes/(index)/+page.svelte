@@ -9,6 +9,8 @@
 	import F1Transfer from './F1Transfer.svelte';
 	import HowItWorks from './HowItWorks.svelte';
 	import ContactUs from './ContactUs.svelte';
+	import Gallery from './Gallery.svelte';
+	import VisaInterview from './VisaInterview.svelte';
 	export let data;
 </script>
 
@@ -16,4 +18,6 @@
 <DirectAdmission />
 <F1Transfer />
 <HowItWorks />
+<VisaInterview />
+<Gallery />
 <ContactUs />

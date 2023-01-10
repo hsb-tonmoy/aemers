@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { getAssetURL } from '../utils/getAssetURL';
 	import { Facebook, YouTube, LinkedIn } from '../components/Icons';
 	import SubscribeForm from './SubscribeForm.svelte';
 	export let site_logo: string;
@@ -11,21 +10,21 @@
 	];
 </script>
 
-<footer class="bg-[#F8F8F8]">
+<footer class="bg-[#151619] text-[#d4d4d4]">
 	<div class="container mx-auto px-6 py-12">
 		<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 			<div class="flex flex-col gap-y-3">
-				<a class="text-2xl font-bold text-gray-800 hover:text-gray-700 lg:text-3xl" href="/"
-					><img src={getAssetURL(site_logo)} alt="Aemers LLC" class="w-40" /></a
+				<a class="text-2xl font-bold lg:text-3xl" href="/"
+					><img src="/images/logo_white.png" alt="Aemers LLC" class="w-40" /></a
 				>
-				<span class="text-sm md:text-base text-lightColor"
+				<span class="text-sm md:text-base"
 					>Our diverse services are crafted in such a way that all of our valued stakeholders
 					discover the scholarship journey to be truly lovable.</span
 				>
 				<div class="flex items-center gap-x-2">
 					{#each social_links as link}
 						<a href={link.href} target="_blank" rel="noreferrer"
-							><span class="block w-6 h-6 text-primary"><svelte:component this={link.icon} /></span
+							><span class="block w-6 h-6 text-white"><svelte:component this={link.icon} /></span
 							></a
 						>
 					{/each}
@@ -75,9 +74,7 @@
 				<h6 class="">Blogs & Newsletter</h6>
 
 				<div class="flex flex-col items-start space-y-2 mt-3">
-					<p class="text-lightColor text-sm">
-						Subscribe to the newsletter to stay up to date with Aemers.
-					</p>
+					<p class="text-sm">Subscribe to the newsletter to stay up to date with Aemers.</p>
 					<div class="w-full">
 						<SubscribeForm />
 					</div>
@@ -89,9 +86,9 @@
 
 <style lang="postcss">
 	h6 {
-		@apply font-bold text-base text-black;
+		@apply font-bold text-base text-white;
 	}
 	.footer-link {
-		@apply text-sm text-lightColor transition-colors duration-300 hover:text-secondary;
+		@apply text-sm transition-colors duration-300 hover:text-white;
 	}
 </style>

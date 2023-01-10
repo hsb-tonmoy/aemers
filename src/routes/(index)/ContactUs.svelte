@@ -4,7 +4,7 @@
 	import ContactPerson from '$lib/components/Contact/ContactPerson.svelte';
 </script>
 
-<section class="w-full h-full px-6 py-6 lg:py-20">
+<section class="w-full h-full px-6 py-6 lg:py-20 bg-[#FEF9F6]">
 	<div class="container mx-auto">
 		<Subheading text="Send us a Message" />
 		<span class="font-bold text-secondary text-2xl md:text-3xl xl:text-5xl xl:leading-snug"

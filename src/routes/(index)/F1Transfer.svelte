@@ -60,7 +60,9 @@
 						class="floating-info animate-bounce-slow flex items-center gap-6 absolute -bottom-16 -left-5 text-white px-6 py-4 md:px-10 md:py-8 rounded-md"
 					>
 						<span class="text-lg md:text-2xl lg:text-3xl font-bold">15+<br />Years</span>
-						<span class="text-base md:text-lg lg:text-xl">Of experience in<br />US admission</span>
+						<span class="text-base md:text-lg lg:text-xl"
+							>Of experience in<br />Student Mentorship</span
+						>
 					</div>
 				</div>
 			</div>
