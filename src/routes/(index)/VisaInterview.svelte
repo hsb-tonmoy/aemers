@@ -17,7 +17,7 @@
 				CEO, Dr. Rashid. Dr. Rashid has years of experience with visa interview preparation.
 			</p>
 		</div>
-		<div class="w-full xl:w-2/4 grid gap-6 md:grid-0 grid-cols-1 md:grid-cols-2 xl:mt-20">
+		<div class="w-full xl:w-2/4 grid gap-6 md:gap-0 grid-cols-1 md:grid-cols-2 xl:mt-20">
 			<div
 				class="card relative flex flex-col items-center bg-white rounded-lg px-12 py-6 md:row-start-1 md:col-start-1"
 			>
