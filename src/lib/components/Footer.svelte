@@ -15,7 +15,7 @@
 		<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 			<div class="flex flex-col gap-y-3">
 				<a class="text-2xl font-bold lg:text-3xl" href="/"
-					><img src="/images/logo_white.png" alt="Aemers LLC" class="w-40" /></a
+					><img src="/logo_white.png" alt="Aemers LLC" class="w-40" /></a
 				>
 				<span class="text-sm md:text-base"
 					>Our diverse services are crafted in such a way that all of our valued stakeholders
