@@ -19,7 +19,7 @@
 					Rashid to find out about opportunities in big cities with more affordable programs.
 				</p>
 
-				<a href="/go"><ButtonPrimary>Schedule a free session</ButtonPrimary></a>
+				<a href="/contact"><ButtonPrimary>Schedule a free session</ButtonPrimary></a>
 				<div class="flex flex-wrap md:flex-nowrap gap-4 md:gap-0 mt-10">
 					<div class="w-full md:w-2/4">
 						<div class="flex items-center gap-4">

@@ -38,13 +38,13 @@
 					<div class="w-full md:w-2/4">
 						<div class="flex items-center gap-4">
 							<img
-								src="/images/mamoon-small.png"
+								src="/images/tasnim.jpg"
 								alt="Mamoon Rashid"
 								class="object-cover rounded-full w-16"
 							/>
 							<div class="flex flex-col gap-1">
-								<span class="text-xl font-bold">Dr. Mamoon Rashid</span>
-								<span class="text-sm text-primary">CEO & Founder</span>
+								<span class="text-xl font-bold">Syeda Tasnim Hassan</span>
+								<span class="text-sm text-primary">Administrative Manager</span>
 							</div>
 						</div>
 					</div>
@@ -56,7 +56,7 @@
 							<div class="flex flex-col gap-1">
 								<span class="text-base font-bold">Call Us to Learn More</span>
 								<a href="tel:+8801781373911" class="text-xl font-bold text-primary"
-									>+88 017813 73911</a
+									>+88 0132 648 0510</a
 								>
 							</div>
 						</div>

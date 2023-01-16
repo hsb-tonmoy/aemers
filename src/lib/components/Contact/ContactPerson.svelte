@@ -13,7 +13,7 @@
 			<div class="w-8 h-8 p-2 rounded-full bg-white">
 				<span class="block text-primary"><Phone /></span>
 			</div>
-			+8801781373911
+			+88 0132 648 0510
 		</button>
 		<button class="inline-flex items-center gap-2 text-left">
 			<div class="w-8 h-8 p-2 rounded-full bg-white">

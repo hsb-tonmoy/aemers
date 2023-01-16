@@ -50,7 +50,7 @@
 				>
 				<a
 					class="absolute bottom-0 mx-auto"
-					href="https://app.aemers.com/mock_visa_interview"
+					href="https://calendly.com/aemers-admission/mock-visa"
 					target="_blank"
 					rel="noreferrer"
 				>

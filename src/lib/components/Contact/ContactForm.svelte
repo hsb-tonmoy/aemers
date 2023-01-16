@@ -10,7 +10,14 @@
 	import TextArea from '$lib/components/Form/TextArea.svelte';
 	import ButtonPrimary from '$lib/components/ButtonPrimary.svelte';
 
-	const services = ['General Info', 'Direct Admission', 'Scholarship Mentoring'];
+	const services = [
+		'General Info',
+		'Direct Admission',
+		'F-1 Transfer',
+		'Mock Visa Interview',
+		'Admission to PharmD',
+		'Other'
+	];
 
 	let message = { submitted: false, success: false, text: '' };
 
