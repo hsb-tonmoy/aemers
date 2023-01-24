@@ -9,6 +9,8 @@
 	import Loader from '$lib/loading/Loader.svelte';
 	import { loading } from '$lib/loading/loading';
 
+	import Fab from '$lib/components/FAB.svelte';
+
 	$: loading.setNavigate(!!$navigating);
 
 	export let data;
@@ -23,6 +25,7 @@
 	<slot />
 </main>
 <Footer site_logo={data.site_settings.site_logo} />
+<Fab />
 
 <style lang="postcss" global>
 	:root {

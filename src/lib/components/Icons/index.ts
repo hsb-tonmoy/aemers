@@ -21,3 +21,6 @@ export { default as File } from './File.svelte';
 export { default as USA } from './USA.svelte';
 export { default as Folder } from './Folder.svelte';
 export { default as I20 } from './I-20.svelte';
+export { default as Message } from './Message.svelte';
+export { default as Messenger } from './Messenger.svelte';
+export { default as Whatsapp } from './Whatsapp.svelte';
