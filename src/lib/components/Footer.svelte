@@ -64,9 +64,6 @@
 					<a href="https://kb.aemers.com" target="_blank" rel="noreferrer" class="footer-link"
 						>Knowledgebase</a
 					>
-					<a href="https://sat.aemers.com" target="_blank" rel="noreferrer" class="footer-link"
-						>SAT by Aemers</a
-					>
 				</div>
 			</div>
 
