@@ -3,27 +3,6 @@
 	import { MegaMenu } from 'flowbite-svelte';
 	import ButtonPrimary from '$lib/components/ButtonPrimary.svelte';
 	let menuOpen: boolean = false;
-
-	export let site_logo: string;
-
-	export let services = [];
-	// Group services by Service_Category into an array
-
-	const servicesByCategory = services.reduce((acc, service) => {
-		const { Name } = service.Service_Category;
-		if (!acc[Name]) {
-			acc[Name] = [];
-		}
-		acc[Name].push(service);
-		return acc;
-	}, {});
-
-	// Create an array of objects with the category name and the services in that category
-
-	const servicesArray = Object.keys(servicesByCategory).map((key) => ({
-		category: key,
-		services: servicesByCategory[key]
-	}));
 </script>
 
 <header class="bg-white">
@@ -63,8 +42,8 @@
 			<div
 				class="lg:-px-8 flex flex-col space-y-4 lg:mt-0 lg:flex-row lg:justify-end lg:items-center lg:space-y-0 lg:gap-x-8"
 			>
-				<a id="services" class="navItem" href="#">Services</a>
-				<MegaMenu items={servicesArray} let:item>
+				<!-- <a id="services" class="navItem" href="#">Services</a> -->
+				<!-- <MegaMenu items={servicesArray} let:item>
 					<div class="mr-6">
 						<span class="text-[#AFAFAF] text-xs font-semibold">{item.category}</span>
 						<hr class="bg-borderColor h-px w-full mb-2 mt-1" />
@@ -80,7 +59,7 @@
 							{/each}
 						</div>
 					</div>
-				</MegaMenu>
+				</MegaMenu> -->
 				<a class="navItem" href="https://kb.aemers.com" target="_blank" rel="noreferrer"
 					>Knowledgebase</a
 				>

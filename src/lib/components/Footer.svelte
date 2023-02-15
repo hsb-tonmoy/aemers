@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Facebook, YouTube, LinkedIn } from '../components/Icons';
 	import SubscribeForm from './SubscribeForm.svelte';
-	export let site_logo: string;
 
 	const social_links = [
 		{ icon: Facebook, href: 'https://fb.com/aemers' },

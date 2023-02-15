@@ -20,11 +20,11 @@
 	<title>{$page_title} | Aemers LLC</title>
 </svelte:head>
 <Loader />
-<Header site_logo={data.site_settings.site_logo} services={data.services.data} />
+<Header />
 <main>
 	<slot />
 </main>
-<Footer site_logo={data.site_settings.site_logo} />
+<Footer />
 <Fab />
 
 <style lang="postcss" global>

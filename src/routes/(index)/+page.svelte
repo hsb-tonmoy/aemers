@@ -11,7 +11,6 @@
 	import ContactUs from './ContactUs.svelte';
 	import Gallery from './Gallery.svelte';
 	import VisaInterview from './VisaInterview.svelte';
-	export let data;
 </script>
 
 <Hero />
